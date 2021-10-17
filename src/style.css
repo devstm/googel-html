@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(20, 20, 18);
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#top-nav li{
+color: white;
+}
+.user-image{
+    border-radius: 50%;
+}
+main{
+    text-align: center;
+    margin: 60px auto 120px;
+}
+#search{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(20, 20, 18);
+    width:40%;
+    padding: 10px 20px;
+    /*padding-left: 30px;*/
+    box-sizing: border-box;
+    color: gray;
+    border-radius: 30px;
+}
+.buttons input{
+    margin: 5px;
+    height: 33px;
+    font-size: 14px;
+    background-color: rgb(28, 28, 26);
+    color: white;
+
+}
+/*footer style*/
+.country {
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+#offered{
+    margin-top: 50px;
+    font-size: 14px;
+    color: gray;
+}
+#offered a{
+    text-decoration: underline;
+    color: blue;
+}
+hr {
+    color: gray;
+    border: none;
+    height: 1px;
+    background: gray;
+    margin: 0;
+    padding: 0;
+
+}
+.footer-list div {
+    display: inline-block;
+    text-align: center;
+}
+.left-ul ul li{
+    margin-top: 15px;
+}
